@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: eshop-modernized-mvc
-        image: eshop/modernizedmvc:4.7.1
+        image: kubewinreg1.azurecr.io/eshop/modernizedmvc:latest
         ports:
         - containerPort: 80
         imagePullPolicy: Always
