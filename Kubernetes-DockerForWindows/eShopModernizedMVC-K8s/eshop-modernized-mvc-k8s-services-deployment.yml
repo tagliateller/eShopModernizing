@@ -43,6 +43,8 @@ spec:
           value: ""
       nodeSelector:
        beta.kubernetes.io/os: windows
+      imagePullSecrets:
+      - name: pullsecret
 ---
 apiVersion: v1
 kind: Service

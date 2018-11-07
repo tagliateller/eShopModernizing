@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
       - name: sql-data
-        image: christianacca/mssql-server-windows-express
+        image: christianacca/mssql-server-windows-express:latest
         env:
         - name: ACCEPT_EULA
           value: "Y"
